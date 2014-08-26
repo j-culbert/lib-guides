@@ -272,5 +272,24 @@ div.roundbox{
 	padding-bottom: 10px;
 	text-align: left;
 	font-size: 12px !important;
-}			
+}	
+
+
+.libguides_api_box div, .libguides_api_box td{
+	
+	font: 14px Helvetica, Arial, sans-serif !important;
+}	
+
+.libguides_api_box .outerbox{
+	background-color: #e8e8e8;
+}
+
+.libguides_api_box .headerbox{
+	background-image: none !important;
+	background-color: #bbbbbb;
+	border-radius: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+
 </style>
