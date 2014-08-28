@@ -105,13 +105,13 @@ body {
 }
 
 #tabsI, #tabs12 {
-	font: 14px "Helvetica Neue", Helvetica, arial, sans-serif !important;
+	font: bold 14px "Helvetica Neue", Helvetica, arial, sans-serif !important;
 	} 
 
 #tabs12 a, #tabs12 a span {
 	background-image:none;
 	color: #000;
-	font: 14px "Helvetica Neue", Helvetica, arial, sans-serif !important;
+	font: bold 14px "Helvetica Neue", Helvetica, arial, sans-serif !important;
 	}
 
 #tabsI a span, #tabs12 a span {
@@ -126,7 +126,7 @@ body {
 #tabsI a span:hover, #tabs12 a span:hover {
 	color: #000;
 	background-color: #e8e8e8;
-	font: 14px "Helvetica Neue", Helvetica, arial, sans-serif !important;
+	font: bold 14px "Helvetica Neue", Helvetica, arial, sans-serif !important;
 	}
 
 /*tab of the page you're on*/
@@ -139,21 +139,32 @@ body {
 /*for sub-pages*/
 .dropmenudiv a:hover {
 	font-family: "Helvetica Neue", Helvetica, arial,sans-serif !important;
-	font-weight:normal !important;
-	background-color: #e8e8e8;
+	font-weight: bold; !important;
+	background-color: #bbbbbb;
 	color:#000;} 
 
-.dropmenudiv a{
-	font-weight: normal !important;
-}
-
-.dropmenudiv {
+.dropmenudiv, .dropmenudiv a {
 	font-size:12px;
-	font-weight:normal !important;
-	font-family:"Helvetica Neue", Helvetica, arial,sans-serif !important;
+	font-weight: bold !important;
+	font-family:"Helvetica Neue", Helvetica, arial,sans-serif !important;	
+	}
+.dropmenudiv {
+	position: absolute;
 	margin-top:-5px;
-	background-color: #bbbbbb;
-	padding: 8px;
+	background-color: #e8e8e8;
+	border: none !important;
+	padding: 4px 0px 0px 0px;
+	top: 10em;
+	width: 20em;
+	clear: inherit;
+}
+.dropmenudiv a{
+	display:block;
+	margin:3px 10px 1px 10px;
+	color:#000;
+	border-bottom: 1px solid #bbbbbb;
+	text-decoration:none;
+	line-height:1.3em;	
 }
 
 /*band below tabs, with title of page and search box*/
