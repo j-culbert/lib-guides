@@ -116,6 +116,7 @@ body {
 
 #tabsI a span, #tabs12 a span {
 	background-color: #bbbbbb;
+	padding: 5px 6px 4px 6px !important;
 	border-top-left-radius: 2px;
 	border-top-right-radius: 2px;
 	text-align: center;
