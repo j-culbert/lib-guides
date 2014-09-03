@@ -116,10 +116,8 @@ body {
 
 #tabsI a span, #tabs12 a span {
 	background-color: #bbbbbb;
-	padding: 5px 8px;
 	border-top-left-radius: 2px;
 	border-top-right-radius: 2px;
-	margin:0px;
 	text-align: center;
 	}
 	
@@ -160,7 +158,6 @@ body {
 }
 .dropmenudiv a{
 	display:block;
-	margin:3px 10px 1px 10px;
 	color:#000;
 	border-bottom: 1px solid #bbbbbb;
 	text-decoration:none;
